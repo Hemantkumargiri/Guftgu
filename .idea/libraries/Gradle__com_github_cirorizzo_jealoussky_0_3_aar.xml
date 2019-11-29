@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.cirorizzo:jealoussky:0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jealoussky-0.3.aar/5f005cb0a38d09d4a9710eaf412c253e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jealoussky-0.3.aar/5f005cb0a38d09d4a9710eaf412c253e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.cirorizzo/jealoussky/0.3/ca4eef1eb0c94d2631456c01584df7cb8b05ca8a/jealoussky-0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contact_select_layout"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:visibility="gone"
+        android:background="@color/black"
+        android:layout_marginTop="2dp"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ImgProfile"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            app:srcCompat="@drawable/ic_person"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/colorPrimary"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Encryption 1"
+            android:layout_toRightOf="@id/ImgProfile"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Encryption 1"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="12dp"
+            android:layout_below="@id/name"
+            android:layout_toRightOf="@id/ImgProfile"
+            android:textSize="12sp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_right_arrow_circle"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="3dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrey"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"/>
+
+</LinearLayout>

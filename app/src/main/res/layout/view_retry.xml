@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha=".8"
+    android:gravity="center"
+    android:background="@color/black"
+    android:orientation="vertical"
+
+    app:theme="@style/Theme.AppCompat.Light">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_refresh"
+
+        android:elevation="70dp"
+        android:src="@drawable/ic_refresh"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="10dp"
+        app:civ_circle_background_color="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:gravity="center_horizontal"
+        android:text="Please check your connection.\nTap to retry"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:alpha=".99"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\CTD\\Desktop\\Guftgu\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\CTD\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-android-image-cropper-2.5.1.aar\\ec73dc7388e8e952f89f4493ff1e8c6c\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,107,169,232",
+                        "endColumns": "51,61,62,64",
+                        "endOffsets": "102,164,227,292"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\CTD\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-library-1.2.1.aar\\d60ee1afe353bcb547e7785b4762d07b\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,102",
+                        "endColumns": "46,51",
+                        "endOffsets": "97,149"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "297,344",
+                        "endColumns": "46,51",
+                        "endOffsets": "339,391"
+                    }
+                }
+            ]
+        }
+    ]
+}

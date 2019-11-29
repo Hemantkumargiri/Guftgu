@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha=".6"
+    android:background="@color/black"
+   >
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/material_design_ball_clip_rotate_multiple_loader"
+        style="@style/AVLoadingIndicatorView.Small"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:elevation="10dp"
+        app:indicatorName="BallBeatIndicator"
+        app:indicatorColor="@color/colorPrimary"
+        android:visibility="visible" />
+
+
+
+</RelativeLayout>

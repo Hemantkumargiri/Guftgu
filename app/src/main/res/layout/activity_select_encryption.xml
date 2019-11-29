@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    tools:context=".activity.SelectEncryptionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encryption"
+        android:textSize="26dp"
+        android:padding="5dp"
+        android:background="@color/colorToolBar"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TvEncryption1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Encryption 1"
+
+            android:singleLine="true"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+        <Switch
+            android:id="@+id/SwEncryption1"
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrey"
+        android:layout_marginTop="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TvEncryption2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Encryption 2"
+            android:textSize="22sp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+        <Switch
+            android:id="@+id/SwEncryption2"
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrey"
+        android:layout_marginTop="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TvEncryption3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Encryption 3"
+            android:textSize="22sp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+        <Switch
+            android:id="@+id/SwEncryption3"
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/TvEncryption4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Image Encryption"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+        <Switch
+            android:id="@+id/SwEncryption4"
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrey"
+        android:layout_marginTop="5dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/roundbutton"
+            android:hint="Add"
+            android:textColorHint="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@id/btnAdd"
+            android:background="@drawable/background1"
+            android:hint="Delete"
+            android:visibility="gone"
+            android:textColorHint="@color/white"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Guftgu</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_new_dashboard">NewDashboard</string>
+    <string name="channel_name">channel</string>
+    <string name="home">Home</string>
+    <string name="user_list">User List</string>
+    <string name="my_encryption">My Encryption</string>
+    <string name="help">Help</string>
+    <string name="exit">Exit</string>
+    <string name="dashboard_text">What you want to encrypt / decrypt today? \nMake your choice</string>
+</resources>

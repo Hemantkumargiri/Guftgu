@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_back"
+    tools:context=".fragment.TextEncryptDecryptFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <Spinner
+                        android:id="@+id/spinnerUserList"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/bg_spinner"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:theme="@style/Theme.AppCompat.Light" />
+
+                    <TextView
+                        android:id="@+id/txtViewEncryptionType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/edit_text_background"
+                        android:gravity="center"
+                        android:text="Encryption1"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:id="@+id/textBtnPasteEncrypt"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:gravity="center"
+                        android:text="PASTE"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textBtnCopyEncrypt"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:gravity="center"
+                        android:text="COPY"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/imgBtnEncryptClear"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:gravity="center"
+                        android:src="@drawable/ic_delete"
+                        android:tint="@color/colorWhite" />
+
+                    <ImageButton
+                        android:id="@+id/imgBtnShareEncryptMsg"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:gravity="center"
+                        android:src="@drawable/ic_share"
+                        android:tint="@color/colorWhite" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editTextEncryptMsg"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_text_background"
+                    android:gravity="top|left"
+                    android:hint="Type your message for encryption "
+                    android:maxLines="10"
+                    android:padding="10dp"
+                    android:textIsSelectable="true"
+                    android:scrollbars="vertical"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/txtBtnEncrypt"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:gravity="center"
+                        android:drawableRight="@drawable/ic_down_arrow"
+                        android:padding="10dp"
+                        android:text="ENCRYPT"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtBtnDecrypt"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:drawableRight="@drawable/ic_up_arrow"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="DECRYPT"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold" />
+
+                    <!--<ImageButton
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:gravity="center"
+                        android:src="@drawable/ic_delete"
+                        android:tint="@color/colorWhite" />
+
+                    <ImageButton
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:gravity="center"
+                        android:src="@drawable/ic_share"
+                        android:tint="@color/colorWhite" />-->
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editTextDecryptMsg"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edit_text_background"
+                    android:gravity="top|left"
+                    android:hint="Type your message for decryption "
+                    android:maxLines="10"
+                    android:textIsSelectable="true"
+                    android:padding="10dp"
+                    android:scrollbars="vertical"
+                    android:textCursorDrawable="@drawable/color_cursor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:id="@+id/textBtnCopyDecrypt"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:gravity="center"
+                        android:text="COPY"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textBtnPasteDecrypt"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:gravity="center"
+                        android:text="PASTE"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/imgBtnDecryptClear"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:gravity="center"
+                        android:src="@drawable/ic_delete"
+                        android:tint="@color/colorWhite" />
+
+                    <ImageButton
+                        android:id="@+id/imgBtnShareDecryptMsg"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundbutton"
+                        android:gravity="center"
+                        android:src="@drawable/ic_share"
+                        android:tint="@color/colorWhite" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

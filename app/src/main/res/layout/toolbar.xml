@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorToolBar"
+    android:fitsSystemWindows="true"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:contentInsetStartWithNavigation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/toolbarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="title"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:textSize="25sp"
+                android:visibility="visible" />
+
+            <!--edit icon, it can be customizable-->
+            <ImageView
+                android:id="@+id/toolbar_profile_image"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_user_profile"
+                android:tint="@color/colorWhite"
+                android:layout_marginRight="12dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/Imgfilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/ic_filter"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

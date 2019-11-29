@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.nukc.stateview:library:1.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-1.2.1.aar/d60ee1afe353bcb547e7785b4762d07b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-library-1.2.1.aar/d60ee1afe353bcb547e7785b4762d07b/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nukc.stateview/library/1.2.1/aeb1b3db740e3b5cf991ae64a049ae100cbb1cdd/library-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

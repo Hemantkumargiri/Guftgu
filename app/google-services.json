@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "936336065769",
+    "firebase_url": "https://emessage-eadc9.firebaseio.com",
+    "project_id": "emessage-eadc9",
+    "storage_bucket": "emessage-eadc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936336065769:android:70f2acc4b119f323",
+        "android_client_info": {
+          "package_name": "com.Guftgu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936336065769-klc6j6gaiql5o7eob5ljhovteovpmrp0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Guftgu",
+            "certificate_hash": "0583e3c99aaf472be2a1ff1c0506933107d54ae5"
+          }
+        },
+        {
+          "client_id": "936336065769-ujet70c9b2faaliv505pmb3s89v5l82k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRkKEQZ1rTq4mZV6cscVEPQMbJtH3EJ9Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936336065769-ujet70c9b2faaliv505pmb3s89v5l82k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
